@@ -11,4 +11,5 @@ public class StudentLogIN extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student_log_in);
     }
+
 }
