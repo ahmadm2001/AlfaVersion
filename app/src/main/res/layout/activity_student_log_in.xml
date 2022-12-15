@@ -194,6 +194,16 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
 
+            <Button
+                android:id="@+id/btnFG"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="#5DADE2"
+                style="@style/CardView.Dark"
+                android:text="new password"
+                android:onClick="FGM"
+                android:textSize="9dp" />
         </LinearLayout>
 
         <Space

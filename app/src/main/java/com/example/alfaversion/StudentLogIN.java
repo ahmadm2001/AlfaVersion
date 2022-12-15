@@ -34,6 +34,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class StudentLogIN extends AppCompatActivity {
     TextView tVtitle, tVregister;
+    Intent t;
     EditText eTemail, eTpass,eTphone,eTid,eTname;
     Button btn;
     LinearLayout LL;
@@ -212,4 +213,8 @@ public class StudentLogIN extends AppCompatActivity {
     }
 
 
+    public void FGM(View view) {
+        t=new Intent(StudentLogIN.this,ForGotMyPass.class);
+        startActivity(t);
+    }
 }
