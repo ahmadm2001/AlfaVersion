@@ -1,7 +1,7 @@
 package com.example.alfaversion;
 
 public class Student {
-    private String name, Phone,email, TypeCar,numbercar, uid;
+    private String name, Phone,email, uid;
     public Student(){}
     public Student(String Name, String Phone,String email, String uid ){
         this.name=Name;
